@@ -1,0 +1,81 @@
+/* Custom styles for the carousel and bubble charts */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Carousel slide */
+  .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  /* Carousel caption */
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break words if necessary */
+    overflow-wrap: break-word; /* Break words if necessary (alternative property) */
+  }
+
+  .carousel {
+    padding-top: 100px; /* Adjust the padding as needed */
+  }
+  
+  /* Bubble chart container */
+  .chart {
+    background-color: #fff; /* Add a white background to the bubble chart */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  
+  /* Bubble chart node styles */
+  .node circle {
+    fill: #1f78b4;
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
+  
+  .node text {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    fill: #fff;
+  }
+  
+  /* Custom styles for each scene */
+  #scene1 { background-color: #fff; }
+  #scene2 { background-color: #f9f9f9; }
+  #scene3 { background-color: #f5f5f5; }
+  #scene4 { background-color: #fcfcfc; }
+  
+  /* Add other custom styles as needed */
+  /* ... */
+  
+
+  div.chart {
+    width: 70%;
+  }
+
+  nav.fixed-top {
+    height: 40px;
+  }
+  div.carousel {
+    padding-top: 0px;
+    margin-top: 40px;
+  }
+  div.carousel-inner {
+    padding-top: 35px;
+  }
